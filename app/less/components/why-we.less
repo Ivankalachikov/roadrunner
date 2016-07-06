@@ -1,0 +1,71 @@
+.why-we{
+	background: url("../img/why-use-bg.jpg") 0 0 no-repeat;
+	background-size: cover;
+	padding-top: 33px;
+	padding-bottom: 35px;
+	color: #fff;
+	
+
+	&__title{
+		font-size: 2.1rem;
+		text-align: center;
+		margin-bottom: 19px;
+	}
+
+	&__col1{
+		display: inline-block;
+		width: 45%;
+		vertical-align: top;
+		margin-left: 32px;
+		@media screen and (min-width: 320px) and (max-width:1240px){
+			width: 100%;
+			margin: 0;
+			margin-left: 15px;
+		}
+	}
+
+	&__col2{
+		display: inline-block;
+		width: 45%;
+		margin-left: 74px;
+		vertical-align: top;
+		@media screen and (min-width: 320px) and (max-width:1240px){
+			width: 100%;
+			margin: 0;
+			margin-left: 20px;
+		}
+	}
+
+	&__list{
+		list-style:none;
+		padding: 0;
+	}
+
+	&__item{
+		line-height: 1.6;
+		padding-bottom: 11px;
+		font-size: 1.15rem;
+		font-family: 'Open Sans', sans-serif;
+		text-align: left;
+		position: relative;
+		margin-bottom: 13px;
+
+		&::before{
+			content: "\72";
+			font-family: "untitled-font-10" !important;
+			font-size: 1.6rem;
+			position: absolute;
+			top: -3px;
+			left: -40px;
+			color: #ffc628;
+			@media screen and (min-width: 320px) and (max-width:1240px){
+				left: -30px;
+			}
+		}
+	}
+
+	&__marktext{
+		color: #ffc628;
+		font-weight: 700;
+	}
+}

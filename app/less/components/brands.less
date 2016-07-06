@@ -1,0 +1,38 @@
+.brands {
+	padding-bottom: 23px;
+	@media screen and (min-width: 320px) and (max-width:1240px){
+			padding-top: 40px;
+			text-align: center;
+	}
+
+	&__item{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 73px;
+
+		@media screen and (min-width: 320px) and (max-width:1240px){
+			margin-bottom: 20px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		@media screen and (min-width: 942px) and (max-width:1240px){
+			margin: 0 20px;
+			display: inline-block;
+		}
+	}
+
+	&__item--1{
+		.sprite(@brand1);
+	}
+	&__item--2{
+		.sprite(@brand2);
+	}
+	&__item--3{
+		.sprite(@brand3);
+	}
+	&__item--4{
+		.sprite(@brand4);
+	}
+}

@@ -1,0 +1,10 @@
+.header {
+	background:url("../img/header-bg.png"), url("../img/bg-for-ie9.png") ;
+	background-repeat: no-repeat, repeat-x;
+	background-size: 65%, contain;
+	background-position: right bottom ,0 0;
+}
+
+.specialists{
+	background-position-x: 165%;
+}
